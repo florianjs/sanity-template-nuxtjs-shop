@@ -1,0 +1,33 @@
+{
+  "name": "sanity",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Florian <argaudflorian@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.12.2",
+    "@sanity/client": "^2.11.0",
+    "@sanity/code-input": "^2.12.2",
+    "@sanity/color-input": "^2.11.0",
+    "@sanity/components": "^2.2.6",
+    "@sanity/core": "^2.12.2",
+    "@sanity/default-layout": "^2.12.2",
+    "@sanity/default-login": "^2.11.1",
+    "@sanity/desk-tool": "^2.12.2",
+    "@sanity/vision": "^2.11.2",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "sanity-plugin-color-list": "^2.0.2",
+    "sanity-plugin-order-documents": "^0.0.19"
+  }
+}

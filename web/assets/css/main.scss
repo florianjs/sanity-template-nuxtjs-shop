@@ -1,0 +1,12 @@
+select {
+  @apply px-8;
+}
+
+.slide-fade-enter-active {
+  transition: all 0.8s ease;
+}
+
+.slide-fade-enter {
+  transform: translateX(10px);
+  opacity: 0;
+}

@@ -166,7 +166,6 @@
 <script>
 export default {
   async asyncData({ params, $sanity, $api }) {
-    console.log
     const { item } = await $sanity.fetch($api.article(params.id))
     const { header } = await $sanity.fetch($api.header)
 
@@ -174,6 +173,7 @@ export default {
       product: item[0],
       stripeRef: item[0].prices[0].Stripe,
       color: header[0].colorlist,
+      stripe: header[0],
     }
   },
   data() {
@@ -204,8 +204,8 @@ export default {
         .redirectToCheckout({
           lineItems: [{ price: this.stripeRef, quantity: 1 }],
           mode: 'payment',
-          successUrl: process.env.STRIPE_SUCCESS_URL,
-          cancelUrl: process.env.STRIPE_CANCEL_URL,
+          successUrl: this.stripe.success,
+          cancelUrl: this.stripe.cancel,
         })
         .catch((error) => {
           if (error.message) {

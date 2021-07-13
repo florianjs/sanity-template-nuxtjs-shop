@@ -39,6 +39,18 @@ export default {
       validation: (Rule) => Rule.required(),
     },
     {
+      name: "urlSuccess",
+      title: "Stripe success",
+      description: "redirect URL when successful",
+      type: "url",
+    },
+    {
+      name: "urlCancel",
+      title: "Stripe cancel",
+      description: "redirect URL when canceled",
+      type: "url",
+    },
+    {
       name: "mainImage",
       title: "Open Graph image",
       type: "image",

@@ -3,6 +3,8 @@ import { groq } from '@nuxtjs/sanity'
 export default ({ app }, inject) => {
   const header = groq`{ "header": *[_id == "singleton-homepage"]{
     "fullWidth": fullwidth,
+    "success": urlSuccess,
+    "cancel": urlCancel,
     featuredbackground,
     mainImage,
     "colorlist": colorlist.value,

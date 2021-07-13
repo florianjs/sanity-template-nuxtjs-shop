@@ -204,8 +204,8 @@ export default {
         .redirectToCheckout({
           lineItems: [{ price: this.stripeRef, quantity: 1 }],
           mode: 'payment',
-          successUrl: 'http://localhost:3000/shop/red-air-jordans',
-          cancelUrl: 'http://localhost:3000/shop/red-air-jordans',
+          successUrl: process.env.STRIPE_SUCCESS_URL,
+          cancelUrl: process.env.STRIPE_CANCEL_URL,
         })
         .catch((error) => {
           if (error.message) {

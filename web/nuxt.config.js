@@ -12,7 +12,7 @@ export default {
         src: 'https://plausible.io/js/plausible.js',
         async: true,
         defer: true,
-        'data-domain': 'toko-demo.netlify.app',
+        'data-domain': 'toko-sanity.netlify.app',
       },
     ],
     htmlAttrs: {

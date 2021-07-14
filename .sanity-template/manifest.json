@@ -34,8 +34,8 @@
           "alt": "A preview image of the Sanity Studio."
         },
         "buildSettings": {
-          "base": "/",
-          "dir": "/studio/dist",
+          "base": "studio",
+          "dir": "dist",
           "cmd": "npm run build && cp netlify.toml studio/dist"
         },
         "requirements": ["build-hook"]

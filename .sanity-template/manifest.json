@@ -20,7 +20,6 @@
     }
   ],
   "deployment": {
-    "provider": "netlify",
     "sites": [
       {
         "id": "studio",
@@ -35,8 +34,8 @@
         },
         "buildSettings": {
           "base": "studio",
-          "dir": "dist",
-          "cmd": "npm run build && cp netlify.toml dist"
+          "dir": "studio/dist",
+          "cmd": "npm run build && cp netlify.toml studio/dist"
         },
         "requirements": ["build-hook"]
       },
@@ -56,7 +55,13 @@
           "type": "image",
           "src": ".sanity-template/assets/frontend.png",
           "alt": "A preview image of the webpage."
-        }
+        },
+        "requiredCorsOrigins": [
+          {
+            "origin": "http://localhost:3000",
+            "allowCredentials": false
+          }
+        ]
       }
     ]
   }

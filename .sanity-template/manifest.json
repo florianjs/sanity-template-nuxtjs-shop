@@ -20,6 +20,7 @@
     }
   ],
   "deployment": {
+    "provider": "netlify",
     "sites": [
       {
         "id": "studio",
@@ -55,13 +56,7 @@
           "type": "image",
           "src": ".sanity-template/assets/frontend.png",
           "alt": "A preview image of the webpage."
-        },
-        "requiredCorsOrigins": [
-          {
-            "origin": "http://localhost:3000",
-            "allowCredentials": false
-          }
-        ]
+        }
       }
     ]
   }

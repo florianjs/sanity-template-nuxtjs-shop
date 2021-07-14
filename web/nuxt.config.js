@@ -49,10 +49,6 @@ export default {
     },
   },
 
-  sanity: {
-    projectId: '<#< sanity.projectId >#>',
-  },
-
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss

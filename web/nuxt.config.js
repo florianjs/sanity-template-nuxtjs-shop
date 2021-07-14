@@ -1,5 +1,3 @@
-import sanityClient from './sanityClient'
-
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -47,12 +45,12 @@ export default {
 
   image: {
     sanity: {
-      projectId: sanityClient.projectId,
+      projectId: '<#< sanity.projectId >#>',
     },
   },
 
   sanity: {
-    projectId: sanityClient.projectId,
+    projectId: '<#< sanity.projectId >#>',
   },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules

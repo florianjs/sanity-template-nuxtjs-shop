@@ -36,7 +36,7 @@
         "buildSettings": {
           "base": "studio",
           "dir": "dist",
-          "cmd": "npm run build && cp netlify.toml studio/dist"
+          "cmd": "npm run build && cp netlify.toml dist"
         },
         "requirements": ["build-hook"]
       },
@@ -50,7 +50,7 @@
         "buildSettings": {
           "base": "web",
           "dir": "dist",
-          "cmd": "yarn build && yarn generate"
+          "cmd": "yarn generate"
         },
         "previewMedia": {
           "type": "image",

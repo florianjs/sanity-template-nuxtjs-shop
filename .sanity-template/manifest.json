@@ -50,7 +50,7 @@
         "buildSettings": {
           "base": "web",
           "dir": "dist",
-          "cmd": "yarn generate"
+          "cmd": "yarn build && yarn generate"
         },
         "previewMedia": {
           "type": "image",

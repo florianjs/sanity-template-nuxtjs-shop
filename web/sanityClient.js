@@ -4,6 +4,7 @@ export default sanityClient({
   // Find your project ID and dataset in `sanity.json` in your studio project
   projectId: '<#< sanity.projectId >#>',
   dataset: '<#< sanity.dataset >#>',
+  apiVersion: '2021-03-25',
   useCdn: true,
   // useCdn == true gives fast, cheap responses using a globally distributed cache.
   // Set this to false if your application require the freshest possible

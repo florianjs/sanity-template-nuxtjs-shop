@@ -1,3 +1,5 @@
+![Toko sanity starter template](https://github.com/Icesofty/sanity-template-nuxtjs-shop/blob/main/.sanity-template/assets/sanity.png?raw=true)
+
 # Toko - Sanity Starter template for Netlify powered by NuxtJS
 
 **A Demo is available here : https://toko-sanity.netlify.app/**
@@ -24,15 +26,6 @@ Toko is perfect for people looking to focus on content creation and not technica
 
 The easiest way to start your project is to use Sanity Create https://www.sanity.io/create?template=Icesofty/sanity-template-nuxtjs-shop
 
-Once deployed, do not forget to [add your Environement Variables into your Netlify project](https://docs.netlify.com/configure-builds/environment-variables/#declare-variables).
-
-## Locally
-
-Create a .env file into the web folder and add your own variables. Use the .env.example as an example.
-
-Note that you'll need :
-
-- [Stripe Publishable key](https://support.stripe.com/questions/locate-api-keys-in-the-dashboard)
-- Your sanity project ID https://manage.sanity.io/
+Once deployed, do not forget to [add your Environement Variables into your Netlify project](https://docs.netlify.com/configure-builds/environment-variables/#declare-variables). You only need to add your [Stripe Publishable key](https://support.stripe.com/questions/locate-api-keys-in-the-dashboard) (see the .env.example)
 
 **Follow the author on Twitter : https://twitter.com/icesofty**

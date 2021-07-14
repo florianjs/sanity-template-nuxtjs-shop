@@ -11,6 +11,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/sanity": "^0.9.4",
+    "@sanity/client": "^2.11.0",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7",
     "nuxt-stripe-module": "^3.2.0",

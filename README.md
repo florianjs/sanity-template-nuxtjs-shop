@@ -1,4 +1,4 @@
-![Toko sanity starter template](https://github.com/Icesofty/sanity-template-nuxtjs-shop/blob/main/.sanity-template/assets/sanity.png?raw=true)
+![Toko sanity starter template](https://github.com/Icesofty/sanity-template-nuxtjs-shop/blob/main/.sanity-template/assets/sanity.gif?raw=true)
 
 # Toko - Sanity Starter template for Netlify powered by NuxtJS
 

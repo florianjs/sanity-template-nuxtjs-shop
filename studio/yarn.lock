@@ -1446,9 +1446,9 @@
     styled-components "^5.2.1"
 
 "@sanity/desk-tool@^2.12.2":
-  version "2.15.1"
-  resolved "https://registry.yarnpkg.com/@sanity/desk-tool/-/desk-tool-2.15.1.tgz#5e83998d0ab45aa9b3d872d693ce19af2f3cb302"
-  integrity sha512-lzYoZCSiGRSu/s+bpqcKg06dEkwAj/lVoJM88e0xQUieww0XX0kbDqJDv9ykJs1hqvM1uzj3kQ1M51bL+D0mRQ==
+  version "2.15.2"
+  resolved "https://registry.yarnpkg.com/@sanity/desk-tool/-/desk-tool-2.15.2.tgz#4c4d2f41d48c5a174acb7c1eac85d91431f90af5"
+  integrity sha512-uRbSmvNHQuSxvaC0PG0RvtYyEgDQpyp0DUWzG+2uPLR9ZQAzADNOCjE75TM8Pg2PKI4IH4j4R8h5w2P3AdrnNg==
   dependencies:
     "@popperjs/core" "^2.5.4"
     "@reach/auto-id" "^0.13.2"
@@ -1833,9 +1833,9 @@
     react-refractor "^2.1.4"
 
 "@sanity/ui@^0.36.0":
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-0.36.1.tgz#3543b7659b7a80ffc6352c29c16eab10f72a5f91"
-  integrity sha512-s64aiT1hNf2bddoENaNMtVeeQD/mqcMudKxVmFd6FYbVFiSKxqBKEmriFcXamjN6/Xg0C6f665iBEQUKEZuwtQ==
+  version "0.36.2"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-0.36.2.tgz#9514e11497cda73671b4a982f86f3fb37235b56b"
+  integrity sha512-6AlwqqQqGWXhc5r0gK+6r/MICwJOt8/rSOma0c7uLRYGb4Zjwxao8CYhnm1GI3ldjf2110irfqFYtEofox/RSQ==
   dependencies:
     "@juggle/resize-observer" "^3.3.1"
     "@popperjs/core" "^2.9.3"
@@ -1996,9 +1996,9 @@
   integrity sha512-L28j2FcJfSZOnL1WBjDYp2vUHCeIFlyYI/53EwD/rKUBQ7MtUUfbQWiyKJGpcnv4/WgrhWsFKrcPstcAt/J0tQ==
 
 "@types/react@^17.0.0":
-  version "17.0.18"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.18.tgz#4109cbbd901be9582e5e39e3d77acd7b66bb7fbe"
-  integrity sha512-YTLgu7oS5zvSqq49X5Iue5oAbVGhgPc5Au29SJC4VeE17V6gASoOxVkUDy9pXFMRFxCWCD9fLeweNFizo3UzOg==
+  version "17.0.19"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.19.tgz#8f2a85e8180a43b57966b237d26a29481dacc991"
+  integrity sha512-sX1HisdB1/ZESixMTGnMxH9TDe8Sk709734fEQZzCV/4lSu9kJCPbo2PbTRoZM+53Pp0P10hYVyReUueGwUi4A==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"

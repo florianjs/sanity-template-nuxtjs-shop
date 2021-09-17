@@ -1441,9 +1441,9 @@
     rxjs "^6.5.3"
 
 "@sanity/desk-tool@^2.12.2":
-  version "2.19.0"
-  resolved "https://registry.yarnpkg.com/@sanity/desk-tool/-/desk-tool-2.19.0.tgz#4addb1a411292de3e096aec0576530d97c662b74"
-  integrity sha512-fXr3dEXh4luj0Nnzw4ZVEuV3lcmdcUyKLTPM7vm+v6fqZ3yfJSiZFq3Buh6l8/rNIPy61o8/OmnZv6TgMMdkUw==
+  version "2.19.3"
+  resolved "https://registry.yarnpkg.com/@sanity/desk-tool/-/desk-tool-2.19.3.tgz#c454efca131302b52f247176958f4b0e35ddb524"
+  integrity sha512-pF8kVW3W9eFztOYIP/tvB/OVshyMCkBQk9nAgEWDmXvSLlh08ME4fOyod1JKsOdZ4YCpkJ2qjcgPzEcuuBvOjQ==
   dependencies:
     "@popperjs/core" "^2.5.4"
     "@reach/auto-id" "^0.13.2"
@@ -1452,7 +1452,7 @@
     "@sanity/data-aspects" "2.18.0"
     "@sanity/diff" "2.18.0"
     "@sanity/field" "2.19.0"
-    "@sanity/form-builder" "2.19.0"
+    "@sanity/form-builder" "2.19.3"
     "@sanity/generate-help-url" "2.18.0"
     "@sanity/icons" "^1.1.7"
     "@sanity/react-hooks" "2.19.0"
@@ -1526,10 +1526,10 @@
     lodash "^4.17.15"
     sanity-diff-patch "^1.0.9"
 
-"@sanity/form-builder@2.19.0":
-  version "2.19.0"
-  resolved "https://registry.yarnpkg.com/@sanity/form-builder/-/form-builder-2.19.0.tgz#d480bbc28838097f19458acf9729f1b64a5291fe"
-  integrity sha512-oRfsk+sGZX91YkFQMpO0qaRCtNlLLY4VrJw19bvUiOlO6VmAOkoTbnD5Wzt5H41N0NqhzkSvawJCzJreiC1CWg==
+"@sanity/form-builder@2.19.3":
+  version "2.19.3"
+  resolved "https://registry.yarnpkg.com/@sanity/form-builder/-/form-builder-2.19.3.tgz#88f182118a929f850e50d9bb45e6f7f22de7244c"
+  integrity sha512-CV4+JEiILxEeqfZEi2luVe64GEfVNr3HCBzhMHAM6m572vY2QAD7mQYQUydmO3GoLh9yC3UXoXmeH5HWSTQxuw==
   dependencies:
     "@reach/auto-id" "^0.13.2"
     "@sanity/base" "2.19.0"
@@ -1825,9 +1825,9 @@
     react-refractor "^2.1.4"
 
 "@sanity/ui@^0.36.8":
-  version "0.36.8"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-0.36.8.tgz#094ed7dbda7e198d37d2a028ab4beaecc3b60c3d"
-  integrity sha512-JI0Kf4vPI0qV0yLs6d+C4L7n86mCz29p88jsRxHGWAPF+PUmL9aTtHldHBE7ff3368OjBWWOBEXpTmSapvVQRg==
+  version "0.36.9"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-0.36.9.tgz#0b6da18d6bfb5b91fca8d0258c1586e78c276d3e"
+  integrity sha512-duL6E2qA69r+4X8cT3o/vhehzFmJX82Jx4fejXk+3e4yPQOUPGpjqWwkhIBSDFv/lE0/7tphgp5K3+UVw+RA+w==
   dependencies:
     "@juggle/resize-observer" "^3.3.1"
     "@popperjs/core" "^2.10.1"
@@ -1951,9 +1951,9 @@
   integrity sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==
 
 "@types/lodash@^4.14.149":
-  version "4.14.172"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.172.tgz#aad774c28e7bfd7a67de25408e03ee5a8c3d028a"
-  integrity sha512-/BHF5HAx3em7/KkzVKm3LrsD6HZAXuXO1AJZQ3cRRBZj4oHZDviWPYu0aEplAqDFNHZPW6d3G7KN+ONcCCC7pw==
+  version "4.14.173"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.173.tgz#9d3b674c67a26cf673756f6aca7b429f237f91ed"
+  integrity sha512-vv0CAYoaEjCw/mLy96GBTnRoZrSxkGE0BKzKimdR8P3OzrNYNvBgtW7p055A+E8C31vXNUhWKoFCbhq7gbyhFg==
 
 "@types/memoize-one@^3.1.1":
   version "3.1.2"
@@ -1986,9 +1986,9 @@
   integrity sha512-L28j2FcJfSZOnL1WBjDYp2vUHCeIFlyYI/53EwD/rKUBQ7MtUUfbQWiyKJGpcnv4/WgrhWsFKrcPstcAt/J0tQ==
 
 "@types/react@^17.0.0":
-  version "17.0.20"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.20.tgz#a4284b184d47975c71658cd69e759b6bd37c3b8c"
-  integrity sha512-wWZrPlihslrPpcKyCSlmIlruakxr57/buQN1RjlIeaaTWDLtJkTtRW429MoQJergvVKc4IWBpRhWw7YNh/7GVA==
+  version "17.0.21"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.21.tgz#069c43177cd419afaab5ce26bb4e9056549f7ea6"
+  integrity sha512-GzzXCpOthOjXvrAUFQwU/svyxu658cwu00Q9ugujS4qc1zXgLFaO0kS2SLOaMWLt2Jik781yuHCWB7UcYdGAeQ==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -3626,9 +3626,9 @@ dataloader@^2.0.0:
   integrity sha512-YzhyDAwA4TaQIhM5go+vCLmU0UikghC/t9DTQYZR2M/UvZ1MdOhPezSDZcjj9uqQJOMqjLcpWtyW2iNINdlatQ==
 
 date-fns@^2.16.1:
-  version "2.23.0"
-  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.23.0.tgz#4e886c941659af0cf7b30fafdd1eaa37e88788a9"
-  integrity sha512-5ycpauovVyAk0kXNZz6ZoB9AYMZB4DObse7P3BPWmyEjXNORTI8EJ6X0uaSAq4sCHzM1uajzrkr6HnsLQpxGXA==
+  version "2.24.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.24.0.tgz#7d86dc0d93c87b76b63d213b4413337cfd1c105d"
+  integrity sha512-6ujwvwgPID6zbI0o7UbURi2vlLDR9uP26+tW6Lg+Ji3w7dd0i3DOcjcClLjLPranT60SSEFBwdSyYwn/ZkPIuw==
 
 date-now@1.0.1:
   version "1.0.1"
@@ -4537,9 +4537,9 @@ focus-lock@^0.9.1:
     tslib "^2.0.3"
 
 follow-redirects@^1.2.4:
-  version "1.14.3"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.3.tgz#6ada78118d8d24caee595595accdc0ac6abd022e"
-  integrity sha512-3MkHxknWMUtb23apkgz/83fDoe+y+qr0TdgacGIA7bew+QLBo3vdgEN2xEsuXNivpFy4CyDhBBZnNZOtalmenw==
+  version "1.14.4"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.4.tgz#838fdf48a8bbdd79e52ee51fb1c94e3ed98b9379"
+  integrity sha512-zwGkiSXC1MUJG/qmeIFH2HBJx9u0V46QGUe3YR1fXG8bXQxq7fLj0RjLZQ5nubr9qNJUZrH+xUcwXEoXNpfS+g==
 
 for-in@^1.0.2:
   version "1.0.2"

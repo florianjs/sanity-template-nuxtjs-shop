@@ -1420,16 +1420,16 @@
     rxjs "^6.5.3"
 
 "@sanity/desk-tool@^2.12.2":
-  version "2.22.1"
-  resolved "https://registry.yarnpkg.com/@sanity/desk-tool/-/desk-tool-2.22.1.tgz#e74cdc6284a54245a168fc406e6e785f41e22d45"
-  integrity sha512-BXm5YcUjQi+hr9xIXLQhLETaDzTDOS3AMfgeUA1sY4dlzrCeaRZ1iVghRmHQyOfdtQTaFFrLMg5qbXfKdBTQLw==
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/@sanity/desk-tool/-/desk-tool-2.22.2.tgz#ef4a8b424e290e75ab6130a70db28432c8113c34"
+  integrity sha512-nrlchxRl7QFkT6T/X0psvBtODnZeXzm2W/ek44SulURRgtpPT8q4R039SurRneqVC5FcVHFh+94IrnmQ3NiahA==
   dependencies:
     "@reach/auto-id" "^0.13.2"
     "@sanity/client" "2.21.10"
     "@sanity/data-aspects" "2.18.0"
     "@sanity/diff" "2.20.0"
     "@sanity/field" "2.22.0"
-    "@sanity/form-builder" "2.22.1"
+    "@sanity/form-builder" "2.22.2"
     "@sanity/generate-help-url" "2.18.0"
     "@sanity/icons" "^1.2.1"
     "@sanity/react-hooks" "2.22.0"
@@ -1501,10 +1501,10 @@
     lodash "^4.17.15"
     sanity-diff-patch "^1.0.9"
 
-"@sanity/form-builder@2.22.1":
-  version "2.22.1"
-  resolved "https://registry.yarnpkg.com/@sanity/form-builder/-/form-builder-2.22.1.tgz#a696832917bf0c570b67e47c858523461de1011c"
-  integrity sha512-qIDPyhHfQJPP5n+q8n5338zexB+d1PdGOvPHIxVCisnog6B9QRJdxwf/r4GvQyD6Q3bpGH1IMdivmBY0b2LMjw==
+"@sanity/form-builder@2.22.2":
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/@sanity/form-builder/-/form-builder-2.22.2.tgz#443f7518b539b5ee24c5e4280a0d977503aeaa8c"
+  integrity sha512-L2wOLsV51jQhperZLFxW77kw9qEeQVJwhiChX4ieEZHqlQ9REUVinUlIzvFoN0oj/ANJLi7POlOr7BEt0bLdaQ==
   dependencies:
     "@reach/auto-id" "^0.13.2"
     "@sanity/base" "2.22.0"
@@ -1999,9 +1999,9 @@
   integrity sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==
 
 "@types/uuid@^8.0.0":
-  version "8.3.1"
-  resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-8.3.1.tgz#1a32969cf8f0364b3d8c8af9cc3555b7805df14f"
-  integrity sha512-Y2mHTRAbqfFkpjldbkHGY8JIzRN6XqYRliG8/24FcHm2D2PwW24fl5xMRTVGdrb7iMrwCaIEbLWerGIkXuFWVg==
+  version "8.3.3"
+  resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-8.3.3.tgz#c6a60686d953dbd1b1d45e66f4ecdbd5d471b4d0"
+  integrity sha512-0LbEEx1zxrYB3pgpd1M5lEhLcXjKJnYghvhTRgaBeUivLHMDM1TzF3IJ6hXU2+8uA4Xz+5BA63mtZo5DjVT8iA==
 
 "@types/warning@^3.0.0":
   version "3.0.0"

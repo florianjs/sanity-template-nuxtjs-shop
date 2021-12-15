@@ -1,7 +1,7 @@
 {
   "name": "sanity",
   "private": true,
-  "version": "1.0.24",
+  "version": "1.0.25",
   "description": "",
   "main": "package.json",
   "author": "Florian <argaudflorian@gmail.com>",

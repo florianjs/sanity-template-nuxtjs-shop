@@ -1,7 +1,7 @@
 {
   "name": "sanity",
   "private": true,
-  "version": "1.0.27",
+  "version": "1.0.28",
   "description": "",
   "main": "package.json",
   "author": "Florian <argaudflorian@gmail.com>",
@@ -16,7 +16,7 @@
   "dependencies": {
     "@sanity/base": "^2.12.2",
     "@sanity/cli": "^2.12.2",
-    "@sanity/client": "^2.11.0",
+    "@sanity/client": "^3.0.0",
     "@sanity/code-input": "^2.12.2",
     "@sanity/color-input": "^2.11.0",
     "@sanity/components": "^2.2.6",

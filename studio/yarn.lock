@@ -1297,7 +1297,19 @@
   resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-2.27.0.tgz#76b0ffcdd32f22272e3812d5a18c6298b4a49e86"
   integrity sha512-hx2/z1oBnAo+aA+h3Zz3dQgLEJi693/CJJSq3Pt9CdDN5zXz8g5C923nXJ3gNnTh+npwu5gIr7I68n9VKkj59Q==
 
-"@sanity/client@^3.0.0", "@sanity/client@^3.0.1":
+"@sanity/client@^3.0.0":
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-3.0.6.tgz#62f0045ea06783fd98469c56b464d74509701f79"
+  integrity sha512-UzFCV7Wj5yL/FRlPrTM2yVpmJU//E3jevxhFPnO7OsfpEuTscDREPEdV/Fc873JL5PAm+uAATAK/Hx/zGCxctw==
+  dependencies:
+    "@sanity/eventsource" "^2.23.0"
+    "@sanity/generate-help-url" "^2.18.0"
+    get-it "^6.0.0"
+    make-error "^1.3.0"
+    object-assign "^4.1.1"
+    rxjs "^6.0.0"
+
+"@sanity/client@^3.0.1":
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/@sanity/client/-/client-3.0.4.tgz#6dfeed6ed302d872bc6c850521b28a5d13f41a62"
   integrity sha512-4PeFbeG9MlGmruZjN371lim8zXkR625v7Kk4HY50FsWbS1KmSmbcJt+Y5/efFMEYtVVg3rFUTsA4RCPyZcLxOA==
@@ -4739,9 +4751,9 @@ get-it@^5.2.1:
     url-parse "^1.1.9"
 
 get-it@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/get-it/-/get-it-6.0.0.tgz#c2f07e5021da126cb6b552cac406d88d561951ae"
-  integrity sha512-yh3ZpfsGNS1AOGf07y9BVpwQIGPHM0ymWluGRZYq44zlXlTkhTElZghV+4HVdTFTOIMeUzfGM7cNhnR20GMnUA==
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/get-it/-/get-it-6.0.1.tgz#5fd4276c9bb0f61990688a22a2a4d2f700132148"
+  integrity sha512-tZMsIu4VatXy2RT3M1sStmqn5U0JI6JratUi5kNV/SKpF14+2hssT9J+C51HVO8BPc34fuYVO9W9OzqhbZyQ4A==
   dependencies:
     "@sanity/timed-out" "^4.0.2"
     create-error-class "^3.0.2"
